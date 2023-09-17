@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="img/a-removebg-preview.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio</title>
+    
+</head>
+<body>
+    <!-- Style Switcher -->
+    <input type="radio" name="color" id="color-1">
+    <input type="radio" name="color" id="color-2">
+    <input type="radio" name="color" id="color-3">
+    <input type="radio" name="color" id="color-4">
+    <input type="radio" name="color" id="color-5">
+    <input type="radio" name="color" id="color-6">
+    <input type="radio" name="color" id="color-7">
+    <input type="radio" name="color" id="color-8">
+    <input type="radio" name="color" id="color-9">
+    <input type="radio" name="color" id="color-10">
+    <input type="checkbox" id="toggler">
+    <input type="checkbox" id="day-night">
+    
+    <div class="style__switcher">
+        <label for="toggler" class="style__switcher-toggler">
+            <i class="fa-solid fa-gear fa-spin"></i>
+        </label>
+
+        <label for="day-night" class="style__switcher-theme">
+            <i class="fa-solid fa-sun"></i>
+            <i class="fa-solid fa-moon"></i>
+        </label>
+
+        <h3 class="style__switcher-title">Theme Colors</h3>
+
+        <div class="style__switcher-colors">
+            <label for="color-1" class="color-1 color"></label>
+            <label for="color-2" class="color-2 color"></label>
+            <label for="color-3" class="color-3 color"></label>
+            <label for="color-4" class="color-4 color"></label>
+            <label for="color-5" class="color-5 color"></label>
+            <label for="color-6" class="color-6 color"></label>
+            <label for="color-7" class="color-7 color"></label>
+            <label for="color-8" class="color-8 color"></label>
+            <label for="color-9" class="color-9 color"></label>
+            <label for="color-10" class="color-10 color"></label>
+
+        </div>
+    </div>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo">Portfolio</a>
+            <i class="fa-solid fa-bars"></i>
+            <ul class="nav__list">
+
+                <li class="nav__item">
+                    <a href="#home" class="nav__link active-link">Home</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#about" class="nav__link ">About</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#skills" class="nav__link">Skills</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#work" class="nav__link">Portfolio</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#contact" class="nav__link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+     <!-- ************ Main Section ********** -->
+     <main class="main">
+        <!-- *************** Home ************ -->
+        <section class="home" id="home">
+            <div class="home__container container grid">
+                <div class="home__content">
+                    <span class="home__small">Hello</span>
+                    <h1 class="home__title">
+                        <span>I'm</span> Shubhranshu <br>
+                        a <span> Full Stack Developer</span>
+                    </h1>
+
+                    <p class="home__description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique soluta distinctio quibusdam esse nesciunt in.
+                    </p>
+
+                    <div class="home__btn">
+                        <a href="" class="btn">Hire Me</a>
+                    </div>
+
+                    
+                </div>
+                
+                <div class="home__img-wrapper">
+                    <img src="img/profile-removebg (2).png" alt="" class="home__img">
+                </div>
+            </div>
+        </section>
+
+        <!-- ************** About ************* -->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__img-wrapper">
+                <img src="img/profile.jpg" alt="" class="about__img">
+                <img src="img/profile.jpg" alt="" class="about__img">
+                <img src="img/profile.jpg" alt="" class="about__img">
+                <img src="img/profile.jpg" alt="" class="about__img">
+                </div>
+
+                <div class="about__content">
+                    <h2 class="section__title" data-title="Who am I?">
+                        I'm Shubhranshu Shekhar Panda, a Web Developer
+                    </h2>
+
+                    <p class="about__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, consequuntur?
+                    </p>
+
+                    <ul class="about__data grid">
+                        <li class="data__item">
+                            <h3 class="data__title">Name:</h3>
+                            <span class="data__description">Shubhranshu S. Panda</span>
+                        </li>
+
+                        <li class="data__item">
+                            <h3 class="data__title">Age:</h3>
+                            <span class="data__description">19</span>
+                        </li>
+
+                        <li class="data__item">
+                            <h3 class="data__title">From:</h3>
+                            <span class="data__description">Odisha,India</span>
+                        </li>
+
+                        <li class="data__item">
+                            <h3 class="data__title">Email:</h3>
+                            <span class="data__description about__link">shubhranshupanda2020@gmail.com</span>
+                        </li>
+                    </ul>
+
+                    <div class="about__bottom">
+                        <a href="" class="btn">Download CV</a>
+
+                        <div class="about__social-links">
+                            <a href="" class="about__social-link">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+
+                            <a href="" class="about__social-link">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+
+                            <a href="" class="about__social-link">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+
+                            <a href="" class="about__social-link">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ****************** Skills **************** -->
+        <section class="skills section" id="skills">
+            <h2 class="section__title title-center" data-title="What I know?">
+                My Skills
+            </h2>
+
+            <div class="skills__container container grid ">
+                <div class="skills__item">
+                    <i class="fa-brands fa-java  skills__icon"></i>
+                    <h3 class="skills__title">Java</h3>
+                    <p class="skills__description">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, totam.
+                    </p>
+                    <span class="skills__no">01</span>
+                </div>
+
+                <div class="skills__item">
+                    <i class="fa-brands fa-python skills__icon"></i>
+                    <h3 class="skills__title">Python</h3>
+                    <p class="skills__description">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, totam.
+                    </p>
+                    <span class="skills__no">02</span>
+                </div>
+
+                <div class="skills__item">
+                    <i class="fa-brands fa-react skills__icon"></i>
+                    <h3 class="skills__title">React</h3>
+                    <p class="skills__description">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, totam.
+                    </p>
+                    <span class="skills__no">03</span>
+                </div>
+
+                <div class="skills__item">
+                    <i class="fa-brands fa-html5 skills__icon"></i>
+                    <h3 class="skills__title">Html</h3>
+                    <p class="skills__description">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, totam.
+                    </p>
+                    <span class="skills__no">04</span>
+                </div>
+
+                <div class="skills__item">
+                    <i class="fa-brands fa-css3-alt skills__icon"></i>
+                    <h3 class="skills__title">CSS</h3>
+                    <p class="skills__description">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, totam.
+                    </p>
+                    <span class="skills__no">05</span>
+                </div>
+
+                <div class="skills__item">
+                    <i class="fa-brands fa-js skills__icon"></i>
+                    <h3 class="skills__title">Javascript</h3>
+                    <p class="skills__description">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, totam.
+                    </p>
+                    <span class="skills__no">06</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ************* Portfolio ************** -->
+        <section class="works section" id="work">
+            <h2 class="section__title title-center" data-title="My Portfolio">
+                Recent Projects
+            </h2>
+
+            <div class="work__container container grid">
+                <div class="work__card">
+                    <img src="img/Netflix.jpg" alt="" class="work__img">
+
+                    <div class="work__details">
+                        <h3 class="work__title">Netflix Clone</h3>
+                        <span class="work__description">This  is a short description</span>
+                        <a href="https://shubhranshu2023.github.io/Netflix-Clone/">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="work__card">
+                    <img src="img/flipkart.jpg" alt="" class="work__img">
+
+                    <div class="work__details">
+                        <h3 class="work__title">Flipkart Clone</h3>
+                        <span class="work__description">This  is a short description</span>
+                        <a href="https://shubhranshu2023.github.io/Flipkart/">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="work__card">
+                    <img src="img/starbucks.jpg" alt="" class="work__img">
+
+                    <div class="work__details">
+                        <h3 class="work__title">Starbucks Clone</h3>
+                        <span class="work__description">This  is a short description</span>
+                        <a href="https://shubhranshu2023.github.io/StarBucks/">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="work__card">
+                    <img src="img/reume.png" alt="" class="work__img">
+
+                    <div class="work__details">
+                        <h3 class="work__title">Resume</h3>
+                        <span class="work__description">This  is a short description</span>
+                        <a href="#">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="work__card">
+                    <img src="img/chrome.jpg" alt="" class="work__img">
+
+                    <div class="work__details">
+                        <h3 class="work__title">Customized Chrome</h3>
+                        <span class="work__description">This  is a short description</span>
+                        <a href="https://shubhranshu2023.github.io/chromeDesign/">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="work__card">
+                    <img src="img/portfolio.png" alt="" class="work__img">
+
+                    <div class="work__details">
+                        <h3 class="work__title">Portfolio</h3>
+                        <span class="work__description">This  is a short description</span>
+                        <a href="#">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- *************** Contacts ************ -->
+        <section class="contact section" id="contact">
+            <h2 class="section__title title-center" data-title="Get in touch">
+                Contact Me
+            </h2>
+
+            <div class="contact__container container grid">
+                <div class="contact__details">
+                    <div class="contact__item">
+                        <i class="fa-solid fa-phone contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Call Me</h3>
+                            <span class="contact__data">+91 8093602765</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__item">
+                        <i class="fa-solid fa-envelope contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Email</h3>
+                            <span class="contact__data">shubhranshupanda2020@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__item">
+                        <i class="fa-solid fa-location-dot contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Address</h3>
+                            <span class="contact__data">Odisha,India</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="" class="contact__form">
+                    <div class="form__group">
+                        <div class="form__input">
+                            <input type="text" placeholder="Name" class="input__control">
+                        </div>
+
+                        <div class="form__input">
+                            <input type="email" placeholder="Email" class="input__control">
+                        </div>
+                    </div>
+
+                    <div class="form__input">
+                        <input type="text" placeholder="Subject" class="input__control">
+                    </div>
+
+                    
+                    <div class="form__input">
+                        <textarea name="" id="" placeholder="Message" cols="30" rows="10" class="input__control textarea"></textarea>
+                    </div>
+
+                    <button class="btn contact__btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+     </main>
+    <footer class="footer">
+        <div class="footer__container container">
+            <p class="footer__copyright">&copy; 2023 Shubhranshu. All rights Reserved</p>
+
+            <div class="footer__social-links">
+                <a href="" class="footer__social-link">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+
+                <a href="" class="footer__social-link">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="" class="footer__social-link">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+
+                <a href="" class="footer__social-link">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
